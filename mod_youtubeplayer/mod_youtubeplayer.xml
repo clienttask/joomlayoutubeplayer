@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>ClientTask YouTube Player</name>
+    <version>1.0.0</version>
+    <creationDate>2025-11-01</creationDate>
+    <author>ClientTask</author>
+    <authorEmail>support@clienttask.com</authorEmail>
+    <authorUrl>https://www.clienttask.com</authorUrl>
+    <copyright>Copyright (c) 2025 ClientTask</copyright>
+    <license>GPL-2.0-or-later</license>
+    <description>ClientTask YouTube Player for Joomla 6 with configurable width and height.</description>
+
+    <files>
+        <filename module="mod_youtubeplayer">mod_youtubeplayer.php</filename>
+        <folder>tmpl</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="Basic">
+                <field name="videoid" type="text" label="YouTube Video ID" default="dQw4w9WgXcQ"/>
+                <field name="width" type="text" label="Player Width" default="560" description="Enter width (e.g., 560 or 100%)"/>
+                <field name="height" type="text" label="Player Height" default="315" description="Enter height in pixels (e.g., 315)"/>
+                <field name="autoplay" type="radio" label="Autoplay" default="0">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="responsive" type="radio" label="Responsive" default="1">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
