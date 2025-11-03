@@ -83,6 +83,3 @@ This is an early-stage project. Contributions are welcome:
 ## 📜 License
 This project does not yet specify a license. If you plan to use or contribute, please check with the repository owner.
 
----
-
-👉 Would you like me to also **write a sample `mod_youtubeplayer.xml` manifest file** (which Joomla requires for module installation), so you can drop it in and have a working install package right away?
