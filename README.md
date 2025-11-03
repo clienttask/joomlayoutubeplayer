@@ -81,5 +81,4 @@ This is an early-stage project. Contributions are welcome:
 ---
 
 ## 📜 License
-This project does not yet specify a license. If you plan to use or contribute, please check with the repository owner.
-
+<a href="https://github.com/clienttask/joomlayoutubeplayer/blob/main/LICENSE.md">License-MIT</a>
